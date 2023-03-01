@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>New pet</title>
+	</head>
+	<body bgcolor="#12E3D3">
+		<font color="#2735A5"><h1>New Pet - Pet shop</h1>
+		<center>
+		<h1>Agendamento</h1>
+		</center>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="quemsomos.html">Quem Somos</a></li>
+			<li><a href="produtos.html">Produtos<a/></li>
+			<li><a href="contato.html">Contato<a/></li>
+		</ul>
+		<hr>
+		<form method="post" id="contato" action="obrigado.html">
+			<p>
+		<label for="nome">Nome:</label>
+		<input type="text"
+				name="nome"
+				id="nome"
+				placeholder="Digite seu nome" required>
+			</p>
+			<p>
+		<label for="nome do pet">Nome do Pet:</label>
+		<input type="text"
+				name="nome do pet"
+				id="nome do pet"
+				placeholder="Digite o nome do Pet" required>
+			</p>
+		<label for="email">Email:</label>
+		<input type="email"
+			   name="email"
+			   id="email"
+			   placeholder="Digite seu e-mail"
+				required>
+			<p>
+		<label for="Telefone">Telefone para contato:</label>
+		<input type="Telefone"
+			   name="Telefone"
+			   id="Telefone"
+			   placeholder="Digite seu Telefone"
+				required>
+		
+		<hr>
+		<h3>Data de Agendamento</h3>
+		
+			  <label for="birthday">Birthday:</label>
+			  <input type="date" id="birthday" name="birthday">
+		
+		<hr>
+		<h3>Escolha o Gênero de seu Pet</h3>
+		
+		  	<input type="radio" id="Fêmea" name="Fêmea" value="Fêmea">
+		  	<label for="Fêmea">Fêmea</label><br>
+		  	<input type="radio" id="Macho" name="Macho" value="Macho">
+		  	<label for="Macho">Macho</label><br>
+		
+		<hr>
+		<p>
+		<h3>Tipo de Pelagem</h3>
+		
+		<label for="pelagem">Pelagem:</label>
+		<select id="pelagem" name="pelagem">
+			<option value="Escura longa">Escura longa</option>
+			<option value="Clara longa">Clara longa</option>
+			<option value="Mesclada longa">Mesclada longa</option>
+			<option value="Escura curta">Escura curta</option>
+			<option value="Clara longa">Clara curta</option>
+			<option value="Mesclada curta">Mesclada curta</option></select>
+			</p>
+
+			<p>
+			<input type="submit" 
+			value="submit">
+			</p>
+		</form>
+	</body>
+</html>
