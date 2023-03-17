@@ -16,11 +16,12 @@ nav{
     width: 100%;
     border-radius: 5%;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(1, 1, 1);
+    text-decoration: none;
 }
 body{
     background-color: rgb(3, 72, 20);
-    text-decoration: none;
+    text-align:center;    
 
 }
 table, tr ,td , th {
@@ -29,10 +30,29 @@ table, tr ,td , th {
     table-layout: unset;
     border: solid;
     border-collapse: collapse;
+    text-align: center;
+    
 }
 h1 {
     text-align: center;
 }
 h2 {
     text-align: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color:rgb(24, 3, 161);
+    font-family:'Courier New', Courier, monospace
+  }
+
+/*Class*/
+.lista {
+    text-decoration: none;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.linha {
+    border-top: 1px solid black;
 }
