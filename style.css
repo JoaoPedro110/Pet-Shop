@@ -41,9 +41,7 @@ h2 {
     font-family:"Sofia", sans-serif;
 }
 
-h3 {
-    text-align: center;
-}
+
 footer{
     bottom: 0;
     display: flex;
@@ -89,6 +87,12 @@ p {
     background-color: rgb(255, 0, 0);
     text-decoration: none;
 }
+.div1 {
+    display: flex;
+}
+.div2 {
+    display: flex;
+}
 /*ID*/
 #Visão {
     text-align: justify;
@@ -116,9 +120,9 @@ p {
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
-#emcoluna {
-    box-sizing: border-box;
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+#facebook{
+    font-family:"Sofia", sans-serif;
+}
+#instagram{
+    font-family:"Sofia", sans-serif;
 }
