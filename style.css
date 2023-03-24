@@ -122,7 +122,9 @@ p {
 }
 #facebook{
     font-family:"Sofia", sans-serif;
+    text-align: right;
 }
 #instagram{
     font-family:"Sofia", sans-serif;
+    text-align: left;
 }
